@@ -58,7 +58,7 @@ $(function() {
   $('#lghpls').on("click", function() {
     var random = Math.floor(Math.random() * 15);
     $('#lghnow').hide();
-    $('lghnow').html(quotelist[random].quote);
+    $('#lghnow').html(quotelist[random].quote);
     $('#lghnow').slideDown().easeOutBound();
 
   });
